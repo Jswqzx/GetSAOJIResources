@@ -4,7 +4,6 @@ class CosPlayFile():
     v_count = 0
     f_size = 0
     download_url = ''
-    isDownload = False
 
     def __init__(self,_name,_p_count,_v_count,_f_size,_download_url):
         self.name = _name
@@ -31,8 +30,4 @@ class CosPlayFile():
 
     def __setDownLoadUrl__(self,_download_url):
         self.download_url = _download_url
-        return self
-
-    def __setIsDownLoad__(self,_isDownLoad):
-        self.isDownload = _isDownLoad
         return self
